@@ -13,26 +13,27 @@ Biomedical Engineering Projects
 
 ## Project 2: Healthcare Admissions Analysis (55,500 patients)
 - Calculated **Length of Stay** from admission/discharge dates
-- Analyzed average stay, billing amount, and test results by **Medical Condition**
+- Performed detailed aggregation by Medical Condition (LOS, billing, age)
+- Added data quality checks and summary statistics
+- Conducted one-way ANOVA test on Length of Stay across conditions (p = 0.324 — no significant differences)
+- Created enhanced visualizations including correlation heatmap and test result distributions
 - Explored patterns in Emergency vs Elective admissions and age distributions
-- Created hospital operations-focused visualizations
 
 **Key Findings**:
-- Average hospital stay: ~15.5 days across all conditions
-- Similar length of stay and billing across Diabetes, Hypertension, Obesity, etc.
-- Balanced test results (Abnormal ~33–34%)
+- Average hospital stay: **15.51 days** across all conditions
+- Very similar length of stay and billing amounts across Diabetes, Hypertension, Obesity, Cancer, Asthma, and Arthritis
+- Balanced test results (~33% Abnormal / Inconclusive / Normal)
+- No statistically significant difference in LOS by medical condition (ANOVA)
 
-**Technologies Used**: Python, pandas, seaborn, matplotlib, scikit-learn
+**Technologies Used**: Python, pandas, seaborn, matplotlib, scipy
 
 ## Repository Structure
 - `diabetes_analysis.py` → Diabetes prediction project
-- `healthcare_analysis.py` → Hospital admissions analysis
+- `healthcare_analysis.py` → Hospital admissions analysis (enhanced)
 - Visualizations and cleaned datasets for both projects
 
 ---
 
-This repository demonstrates core BME skills: clinical data preprocessing, feature engineering, exploratory analysis, and basic predictive modeling.
+This repository demonstrates core BME skills: clinical data preprocessing, feature engineering, exploratory analysis, statistical testing, and basic predictive modeling.
 
-Last updated: March 2026git add diabetes_analysis.py healthcare_analysis.py README.md
-git commit -m "Update author name to Michael Lozada-Longog across all files"
-git push
+**Last updated:** March 2026
