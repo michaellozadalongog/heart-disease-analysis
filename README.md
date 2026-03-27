@@ -5,72 +5,42 @@
 Hawaii-based Biomedical AI Platform Company
 
 ### Founder Vision
-I am building an AI-powered biomedical platform in Hawaii focused on **remote patient monitoring**, **biological systems modeling**, **AI-driven genomics**, and **personalized drug discovery tools**.  
+Building an AI-powered biomedical platform in Hawaii focused on **remote patient monitoring**, **biological systems modeling**, **AI-driven genomics**, and **novel drug discovery tools**.  
 
-The platform targets improved health outcomes for **Pacific Islander communities** and **military personnel**, addressing higher rates of diabetes, cardiovascular disease, and deployment-related conditions through culturally responsive, equitable, and scalable AI-integrated medical technologies.
+The mission is to deliver **personalized, equitable health outcomes** for **Pacific Islander communities** and **military personnel** by addressing disparities in diabetes, cardiovascular disease, medication response, and deployment-related conditions through intelligent, culturally responsive technologies.
 
 ---
 
 ## Portfolio Projects
 
-### Project 1: Pima Indian Diabetes Risk Analysis
-- Cleaned clinical data by handling medically impossible zero values  
-- Feature engineering: BMI categories (Underweight, Normal, Overweight, Obese)  
-- Built Logistic Regression model → **75.3% accuracy**  
-- Visualized relationships between Glucose, Insulin, BMI and diabetes outcome  
+**Project 1: Pima Indian Diabetes Risk Analysis**  
+Clinical data preprocessing and predictive modeling (75.3% accuracy).
 
-**Key BME Insight**: Proper preprocessing is critical for reliable clinical algorithms and diagnostic tools.
+**Project 2: Healthcare Admissions Analysis (55,500 patients)**  
+Hospital operations analysis with statistical testing (ANOVA).
 
-### Project 2: Healthcare Admissions Analysis (55,500 patients)
-- Calculated Length of Stay from admission/discharge dates  
-- Detailed aggregation by Medical Condition (LOS, billing, age)  
-- Statistical testing with one-way ANOVA (p = 0.324 — no significant differences in LOS)  
-- Enhanced visualizations including correlation heatmap  
+**Project 3: Heart Disease UCI Risk Prediction**  
+Binary classification and feature importance for diagnostic tools.
 
-**Key Findings**: Average hospital stay ~15.51 days with highly similar patterns across major conditions.  
+**Project 4: AI-Powered Remote Patient Monitoring Dashboard**  
+Simulated RPM pipeline with flare risk prediction and interactive dashboard.
 
-**Technologies**: pandas, seaborn, matplotlib, scipy
+**Project 5: AI-Driven Genomics Variant Analysis**  
+Variant prioritization and genetic risk scoring for Pacific Islander health.
 
-### Project 3: Heart Disease UCI Risk Prediction (920 patients)
-- Binary classification of heart disease presence  
-- Proper median imputation for missing clinical values  
-- Logistic Regression + Random Forest models  
-- Feature importance analysis for clinical interpretability  
+**Project 6: AI-Driven Drug Discovery & Pharmacogenomics**  
+Pharmacogenomic variant analysis (CYP2C19, SLCO1B1, VKORC1) for personalized drug response and adverse reaction prediction. Feature importance for explainable AI in drug discovery.
 
-**Key BME Insight**: Chest pain type, age, and cholesterol are strong predictors — directly relevant to diagnostic medical devices.
+**Key BME Insight**: Integrating genomics and pharmacogenomics with AI enables safer, more effective personalized therapies — a core capability for a Hawaii-based Biomedical AI Platform serving Pacific Islander and military populations.
 
-**Technologies**: scikit-learn, seaborn, matplotlib
-
-### Project 4: AI-Powered Remote Patient Monitoring Dashboard
-- Simulated wearable/RPM vital signs pipeline for chronic disease flare prediction  
-- Biological systems modeling (glucose-insulin index, cardio risk score)  
-- Random Forest with feature importance for explainable AI  
-- Interactive Plotly dashboard tailored for Pacific Islander & military populations  
-
-**Key BME Insight**: AI-integrated remote monitoring enables proactive, personalized interventions — foundational for scalable Hawaii-based Biomedical AI platforms.
-
-**Technologies**: pandas, scikit-learn, plotly, matplotlib
-
-### Project 5: AI-Driven Genomics Variant Analysis for Pacific Islander Health
-- Synthetic genomics dataset with Pacific Islander-relevant variants (TCF7L2, APOE4, HLA-B27)  
-- Combined genetic + clinical risk scoring  
-- Biological systems modeling and variant prioritization  
-- Random Forest for diabetes risk prediction with feature importance  
-
-**Key BME Insight**: AI-driven genomics tools can support personalized prevention and treatment strategies for Pacific Islander and military populations, advancing precision medicine in Hawaii and the Pacific.
-
-**Technologies**: pandas, scikit-learn, seaborn, matplotlib
+**Technologies Across Portfolio**: Python, pandas, scikit-learn, seaborn, matplotlib, plotly, scipy
 
 ## Repository Structure
-- `diabetes_analysis.py` → Diabetes prediction  
-- `healthcare_analysis.py` → Hospital admissions analysis  
-- `heart_disease_analysis.py` → Heart disease risk prediction  
-- `rpm_predictive_monitoring.py` → Remote patient monitoring  
-- `genomics_variant_analysis.py` → Genomics variant analysis  
-- Visualizations and cleaned datasets for all projects
+- Individual analysis scripts for Projects 1–6
+- Visualizations and cleaned datasets for each project
 
 ---
 
-This portfolio demonstrates core capabilities as a **Principal AI-Integrated Medical Device Engineer**: clinical data handling, predictive modeling, statistical analysis, remote monitoring systems, and genomics AI — all aligned with building equitable, intelligent health technologies for Pacific Islander and military communities in Hawaii.
+This portfolio showcases comprehensive Biomedical Engineering expertise — from clinical analytics to AI-integrated remote monitoring, genomics, and drug discovery — directly aligned with building scalable, equitable health technologies in Hawaii and the Pacific.
 
 **Last updated:** March 2026
