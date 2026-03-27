@@ -1,34 +1,36 @@
-# Pima Indian Diabetes Risk Analysis
+# Healthcare & Biomedical Data Analysis Portfolio
 
-**Biomedical Engineering Portfolio Project**
+**Michael Lozada-Longog**  
+Biomedical Engineering Projects
 
-Professional exploratory data analysis and basic predictive modeling on the classic Pima Indians Diabetes Dataset.
+## Project 1: Pima Indian Diabetes Risk Analysis
+- Cleaned clinical data by handling medically impossible zero values
+- Feature engineering: Created BMI categories (Underweight, Normal, Overweight, Obese)
+- Built Logistic Regression model → **75.3% accuracy**
+- Visualized relationships between Glucose, Insulin, BMI and diabetes outcome
 
-## Key Features
-- Handled medically impossible zero values (Glucose = 0, Insulin = 0, etc.) by converting to NaN
-- Imputed missing values using median (appropriate for clinical data)
-- Feature engineering: Created clinical **BMI categories** (Underweight, Normal, Overweight, Obese)
-- Visualized relationships using scatter plots, boxplots, and correlation heatmap
-- Built a **Logistic Regression model** to predict diabetes outcome
+**Key BME Insight**: Proper preprocessing is critical for clinical algorithms and diagnostic tools.
 
-## Results
-- Diabetes prevalence: 34.9%
-- Logistic Regression Accuracy: **75.3%**
-- Strongest correlations: Glucose and BMI with Outcome
+## Project 2: Healthcare Admissions Analysis (55,500 patients)
+- Calculated **Length of Stay** from admission/discharge dates
+- Analyzed average stay, billing amount, and test results by **Medical Condition**
+- Explored patterns in Emergency vs Elective admissions and age distributions
+- Created hospital operations-focused visualizations
 
-## Technologies
-- Python, pandas, NumPy, seaborn, matplotlib
-- scikit-learn (Logistic Regression + evaluation)
+**Key Findings**:
+- Average hospital stay: ~15.5 days across all conditions
+- Similar length of stay and billing across Diabetes, Hypertension, Obesity, etc.
+- Balanced test results (Abnormal ~33–34%)
 
-## Files
-- `diabetes_analysis.py` — Complete analysis and modeling script
-- `diabetes_cleaned.csv` — Cleaned and imputed dataset
-- `diabetes_visualizations.png` — Generated plots (including correlation heatmap)
+**Technologies Used**: Python, pandas, seaborn, matplotlib, scikit-learn
 
-## BME Relevance
-In biomedical engineering, proper data preprocessing is essential before developing diagnostic tools, wearable glucose monitors, or AI-based clinical decision support systems. This project demonstrates awareness of clinical data quality issues and basic predictive modeling skills.
+## Repository Structure
+- `diabetes_analysis.py` → Diabetes prediction project
+- `healthcare_analysis.py` → Hospital admissions analysis
+- Visualizations and cleaned datasets for both projects
 
 ---
 
-**Author:** Michelle Longog  
-**Date:** March 2026
+This repository demonstrates core BME skills: clinical data preprocessing, feature engineering, exploratory analysis, and basic predictive modeling.
+
+Last updated: March 2026

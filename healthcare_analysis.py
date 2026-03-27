@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # =====================================================
 # Healthcare Admissions Analysis - BME Portfolio Project #2
-# Author: Michelle Longog
+# Author: Michael Lozada-Longog
 # Dataset: Synthetic Healthcare Admissions (Kaggle)
 # =====================================================
 
