@@ -33,4 +33,6 @@ Biomedical Engineering Projects
 
 This repository demonstrates core BME skills: clinical data preprocessing, feature engineering, exploratory analysis, and basic predictive modeling.
 
-Last updated: March 2026
+Last updated: March 2026git add diabetes_analysis.py healthcare_analysis.py README.md
+git commit -m "Update author name to Michael Lozada-Longog across all files"
+git push
